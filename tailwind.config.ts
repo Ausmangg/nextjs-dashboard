@@ -6,6 +6,9 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'text-red-500',
+  ],
   theme: {
     extend: {
       gridTemplateColumns: {
@@ -17,6 +20,9 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+        red: {
+          500: '#ef4444'
+        }
       },
     },
     keyframes: {
